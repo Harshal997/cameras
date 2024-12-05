@@ -1,0 +1,48 @@
+.field {
+    padding: 0em 2em;
+    width: 16rem;
+    padding-left: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.fieldContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-self: center;
+    box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.2);
+}
+
+.fieldText {
+    font-family: 'Inter';
+    color: #545454;
+}
+
+.cloudDevice {
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+}
+
+.input {
+    padding: 0.8em 1.7em;
+    background-color: #F0F0F0;
+    border: none;
+    font-family: 'Inter';
+    color: '#A0A0A0';
+}
+
+.dropdownContainer {
+    display: flex;
+    column-gap: 2em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+}
+
+.dropdown {
+    padding: 0.3em 0.4em;
+    color: #7E7E7E;
+    font-family: 'Inter';
+}

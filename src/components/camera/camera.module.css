@@ -1,0 +1,53 @@
+.field {
+    padding: 0em 2em;
+    width: 16rem;
+    margin: 1em 0;
+    padding-left: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.fieldContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-self: center;
+    box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.2);
+}
+
+.fieldText {
+    font-family: 'Inter';
+    color: #545454;
+}
+
+.cloudDevice {
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+}
+
+.deleteButton {
+    border: none;
+    background-color: rgba(180,0,0,0.7);
+    color: white;
+    font-family: "Inter";
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin: 0;
+}
+
+.deleteButton:hover {
+    cursor: pointer;
+    background-color: rgba(180,0,0,0.4);
+    padding: 3px 12px;
+    margin: 0;
+}
+
+.statusButton{
+    font-family: "Inter";
+}
+
+.statusButton:hover {
+    cursor: pointer;
+}
