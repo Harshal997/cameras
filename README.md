@@ -1,7 +1,7 @@
 Clone and install the app
     git clone https://github.com/Harshal997/cameras.git
-    cd wobot-cam
-    npm i
+    cd wobot-cam,
+    npm i,
     npm start
 
 Project Structure
